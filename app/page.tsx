@@ -6,6 +6,7 @@ const HomePage = () => {
   return <div>
     <h1>Shoe Store</h1>
     <p>Welcome to the Shoe Store</p>
+    <div className='categories'>
     <a href='/men'>
         <button>Men</button>
     </a>
@@ -15,6 +16,7 @@ const HomePage = () => {
     <a href='children' >
         <button>Children</button>
     </a>
+    </div>
   </div>;
 };
 

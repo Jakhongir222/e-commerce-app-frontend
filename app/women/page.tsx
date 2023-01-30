@@ -13,7 +13,7 @@ const womenShoes = () => {
   }, []);
 
   return (
-    <div>
+    <div className='category-page-layout'>
       {womenShoes.map(shoe => (
         <div className='container' key={shoe.id}>
           <p>Brand: {shoe.brand}</p>

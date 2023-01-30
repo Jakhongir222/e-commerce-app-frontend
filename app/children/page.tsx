@@ -13,7 +13,7 @@ const childrenShoes = () => {
   }, []);
 
   return (
-    <div>
+    <div className='category-page-layout'>
       {childrenShoes.map(shoe => (
         <div className='container' key={shoe.id}>
           <p>Brand: {shoe.brand}</p>

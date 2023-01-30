@@ -1,24 +1,25 @@
 import React from 'react';
 import "../styles/Home.css";
+import Image from 'next/image'
+
 
 const HomePage = () => {
     
   return <div>
-    <h1>Shoe Store</h1>
-    <p>Welcome to the Shoe Store</p>
-    <div className='categories'>
+    
     <a href='/men'>
-        <button>Men</button>
+        <button className='button'>Men</button>
     </a>
     <a href='/women'>
-        <button>Women</button>
+        <button className='button'>Women</button>
     </a>
     <a href='children' >
-        <button>Children</button>
+        <button className='button'>Children</button>
     </a>
-    </div>
+  
   </div>;
 };
+
 
 export default HomePage;
 

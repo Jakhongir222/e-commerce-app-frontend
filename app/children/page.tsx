@@ -1,20 +1,15 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 import "../../styles/styleCards.css"
+import useShoes from '../useShoes';
 
 const childrenShoes = () => {
-  const [childrenShoes, setChildrenShoes] = useState([]);
-  const baseURL = 'http://localhost:8080/shoes';
-
-  useEffect(() => {
-    fetch(baseURL)
-      .then(res => res.json())
-      .then(data => setChildrenShoes(data.filter(shoe => shoe.gender === 'boy' || shoe.gender === 'girl')))
-  }, []);
-
-  return (
+    const shoes = useShoes("http://localhost:8080/shoes?gender=boy,girl");
+    
+    return (
     <div className='category-page-layout'>
-      {childrenShoes.map(shoe => (
+      {shoes.filter(shoe => shoe.gender === 'boy' || shoe.gender === 'girl')
+      .map(shoe => (
         <div className='container' key={shoe.id}>
           <p>Brand: {shoe.brand}</p>
           <p>Name: {shoe.name}</p>

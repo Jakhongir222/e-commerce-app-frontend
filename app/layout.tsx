@@ -1,12 +1,15 @@
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+import React from 'react';
+import Navbar from './Navbar';
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html>
       <head />
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
-  )
+  );
 }
+

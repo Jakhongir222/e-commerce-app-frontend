@@ -1,5 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react'
+import "../../styles/styleCards.css"
 
 const childrenShoes = () => {
   const [childrenShoes, setChildrenShoes] = useState([]);
@@ -14,7 +15,7 @@ const childrenShoes = () => {
   return (
     <div>
       {childrenShoes.map(shoe => (
-        <div key={shoe.id}>
+        <div className='container' key={shoe.id}>
           <p>Brand: {shoe.brand}</p>
           <p>Name: {shoe.name}</p>
           <p>Price: {shoe.price}</p>

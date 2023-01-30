@@ -1,0 +1,43 @@
+.categories {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    background-color: #2F3E46;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+    
+  }
+  
+  
+  .button {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 50px;
+    margin: 20px 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    animation: button-appear 0.5s ease-in-out forwards;
+  }
+  
+  .button:hover {
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+  }
+  

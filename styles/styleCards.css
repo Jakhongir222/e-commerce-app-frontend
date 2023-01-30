@@ -1,0 +1,31 @@
+.container {
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 40px;
+    text-align: left;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    background-color: white;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.category-page-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+  
+  @media only screen and (max-width: 800px) {
+    .category-page-layout {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+  }
+  

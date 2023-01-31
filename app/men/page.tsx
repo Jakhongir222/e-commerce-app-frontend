@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import "../../styles/styleCards.css"
 import useShoes from '../useShoes';
 import images from './images'
@@ -11,7 +11,7 @@ const MenShoes = () => {
     <div className='category-page-layout'>
       {shoes.filter(shoe => shoe.gender === 'man')
       .map(shoe => (
-        <a className='container' key={shoe.id} href={`/men/${shoe[shoe.id]}`}>
+        <a className='container' key={shoe.id} href={`/men/${shoe.id}`}>
         <img className='shoe-image' src={images[shoe.brand]} width='273' height='273'/>
           <p>{shoe.name}</p>
           <p>{shoe.brand}</p>

@@ -1,43 +1,80 @@
-.categories {
-    display: flex;
-    justify-content: center;
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-    background-color: #2F3E46;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-around;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: black;
-    padding: 0 20px;
-    
+body{
+    font-family: Arial, sans-serif;
   }
   
-  
-  .button {
-    display: inline-block;
-    padding: 20px 40px;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-radius: 50px;
-    margin: 20px 10px;
-    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    animation: button-appear 0.5s ease-in-out forwards;
+  .categories {
+      display: flex;
+      justify-content: center;
+      font-size: 18px;
   }
   
-  .button:hover {
-    transform: translateY(-2px);
-    box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+  .logo {
+      display: flex;
+      justify-content: center;
+      background-color: #2F3E46;
+      font-size: 22px;
+      font-weight: bold;
+      color: white;
+      padding: 20px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
   }
   
+  .navbar {
+      display: flex;
+      justify-content: space-around;
+      font-size: 16px;
+      padding: 10px 0;
+  }
+  
+  .navbar a {
+      text-decoration: none;
+      color: #333;
+      padding: 0 20px;
+  }
+  
+  .home-image{
+      display: flex;
+      justify-content: center;
+      width: 800px;
+      height: 600px;
+      padding-left: 280px;
+  }
+  
+  button {
+      margin: 50px;
+      height: 360px;
+      width: 370px;
+      color: aliceblue;
+      font-size: 24px;
+      font-weight: bold;
+      border: none;
+      background-color: transparent;
+      transition: all 0.2s ease-in-out;
+  }
+  
+  a {
+     text-decoration: none;
+  }
+  
+  button:hover {
+      transform: translateY(-2px);
+      box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+  }
+  .button-men {
+    background-image: url('https://images.unsplash.com/photo-1542702942-01343dd60a84?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .button-women {
+    background-image: url('https://images.unsplash.com/photo-1493219642556-5084f645ddb4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHdvbWVuJTIwc2hvZXN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .button-children {
+    background-image: url('https://images.unsplash.com/photo-1491488887570-4d99f662dd3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1178&q=80');
+    background-size: cover;
+    background-position: center;
+  }
+

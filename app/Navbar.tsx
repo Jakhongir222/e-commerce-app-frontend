@@ -5,7 +5,11 @@ import Image from 'next/image'
 const Navbar = () => {
   return (
     <div>
-     <div className='logo' ><Image className='Logo' src="/logo.png" width="300" height="100" alt="Logo" priority /></div>
+     <div className='logo' >
+        <a href='/'>
+        <Image className='Logo' src="/logo.png" width="300" height="100" alt="Logo" priority />
+        </a>
+        </div>
       <div className='categories'>
         <div className='navbar'>
           <a href='/'>Home</a>

@@ -20,7 +20,7 @@ const HomePage = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentImageIndex(prevIndex => (prevIndex + 1) % shoeImages.length);
-    }, 3000);
+    }, 2000);
     return () => clearInterval(intervalId);
 }, [currentImageIndex]);
 

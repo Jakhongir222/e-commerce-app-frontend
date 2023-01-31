@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import images from '../images'
 
-function detailsPage  ({id}) {
+function DetailsPage  ({id}) {
 
   const [shoes, setShoes] = useState([]);
   const baseURL = "http://localhost:8080/shoes?gender=man"+id
@@ -18,19 +18,19 @@ function detailsPage  ({id}) {
   return (
     <div>
         {shoes.filter(shoe => shoe.gender === 'man')
-        .filter(shoe => shoe.id = shoe.id)
+        .filter(shoe => shoe.id === shoe.id)
       .map(shoe => (
-        <a className='container' key={shoe.id} href={`men/${shoe[shoe.id]}`}>
+        <div className='container' key={shoe.id}>
         <img className='shoe-image' src={images[shoe.brand]} width='273' height='273'/>
           <p>{shoe.name}</p>
           <p>{shoe.brand}</p>
           <p>{shoe.price} €</p>
           <p>size {shoe.size}</p>
           <p>{shoe.category}</p>
-        </a>
+        </div>
       ))}
     </div>
   )
 }
 
-export default detailsPage
+export default DetailsPage

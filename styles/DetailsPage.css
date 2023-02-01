@@ -21,9 +21,13 @@
   }
   
   p {
-    font-size: 38px;
+    font-size: 35px;
     margin: 10px 0;
     text-align: center;
+  }
+
+  a {
+    color: white;
   }
   
   .order-button {

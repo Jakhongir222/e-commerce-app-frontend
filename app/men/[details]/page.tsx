@@ -35,7 +35,7 @@ function DetailsPage  () {
             <p>size {shoe.size}</p>
             <p>{shoe.category}</p>
             <button className="order-button">order</button>
-            <button className="goback-button">go back</button>
+            <button className="goback-button"> <a href="/men"> go back </a></button>
             </div>
           </div>
         ))}

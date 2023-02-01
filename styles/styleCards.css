@@ -1,3 +1,7 @@
+body{
+  background-color: #CAD2C5;
+}
+
 .container {
     border: 1px solid #ddd;
     margin: 10px;
@@ -15,14 +19,16 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
-    background-color: #CAD2C5;
     padding: 10px;
+    margin-top: 120px;
 }
 
 p {
     font-size: 18px;
     margin: 10px 0;
     font-weight: bold;
+    color: black;
+
 }
   
   @media only screen and (max-width: 800px) {

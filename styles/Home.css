@@ -40,17 +40,6 @@ body{
       padding-left: 280px;
   }
   
-  button {
-      margin: 50px;
-      height: 360px;
-      width: 370px;
-      color: aliceblue;
-      font-size: 24px;
-      font-weight: bold;
-      border: none;
-      background-color: transparent;
-      transition: all 0.2s ease-in-out;
-  }
   
   a {
      text-decoration: none;
@@ -61,18 +50,45 @@ body{
       box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
   }
   .button-men {
+    margin: 50px;
+      height: 360px;
+      width: 370px;
+      color: aliceblue;
+      font-size: 24px;
+      font-weight: bold;
+      border: none;
+      background-color: transparent;
+      transition: all 0.2s ease-in-out;
     background-image: url('https://images.unsplash.com/photo-1542702942-01343dd60a84?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
     background-size: cover;
     background-position: center;
   }
 
   .button-women {
+    margin: 50px;
+      height: 360px;
+      width: 370px;
+      color: aliceblue;
+      font-size: 24px;
+      font-weight: bold;
+      border: none;
+      background-color: transparent;
+      transition: all 0.2s ease-in-out;
     background-image: url('https://images.unsplash.com/photo-1493219642556-5084f645ddb4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHdvbWVuJTIwc2hvZXN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
     background-size: cover;
     background-position: center;
   }
 
   .button-children {
+      margin: 50px;
+      height: 360px;
+      width: 370px;
+      color: aliceblue;
+      font-size: 24px;
+      font-weight: bold;
+      border: none;
+      background-color: transparent;
+      transition: all 0.2s ease-in-out;
     background-image: url('https://images.unsplash.com/photo-1491488887570-4d99f662dd3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1178&q=80');
     background-size: cover;
     background-position: center;

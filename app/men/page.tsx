@@ -5,7 +5,7 @@ import useShoes from '../useShoes';
 import images from './images'
 
 const MenShoes = () => {
-    const shoes = useShoes("http://localhost:8080/shoes?gender=man");
+    const shoes = useShoes("http://e-commerce-app-backend-production.up.railway.app/shoes?gender=man");
 
   return (
     <div className='category-page-layout'>

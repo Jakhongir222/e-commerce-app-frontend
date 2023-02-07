@@ -6,7 +6,7 @@ const images = {
     'Balanciaga': 'https://image.goxip.com/uCIMkvZLcfAiupncT3zUg2545lg=/fit-in/500x500/filters:format(jpg):quality(80):fill(white)/https:%2F%2Fimg.ssensemedia.com%2Fimages%2F212342F128022_1%2Fblack-and-pink-clear-sole-speed-sneakers.jpg',
     'Puma': 'https://i.ebayimg.com/images/g/10MAAOSwZ3hji2F3/s-l500.jpg',
     'Converse': 'https://i5.walmartimages.com/asr/dcc7bf7a-3a77-4393-9e5e-88d1a95f1d65_1.2d67278faa598f7577cf84a3e1a84074.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF',
-    'Vans': 'https://i5.walmartimages.com/asr/83338110-d8da-4311-bdd8-6b4c24a864a8.26ec514bf585b02c6a2fe1d0a9bcf399.jpeg'
+    'Brand H': 'https://i5.walmartimages.com/asr/83338110-d8da-4311-bdd8-6b4c24a864a8.26ec514bf585b02c6a2fe1d0a9bcf399.jpeg'
 
 }
 

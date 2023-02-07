@@ -5,7 +5,7 @@ import "../../../styles/DetailsPage.css"
 
 function DetailsPage  () {
   const [shoes, setShoes] = useState([]);
-  const baseURL = "http://e-commerce-app-backend-production.up.railway.app/shoes?gender=man"
+  const baseURL = "https://e-commerce-app-backend-production-9550.up.railway.app/shoes?gender=man"
 
   useEffect(() => {
     if (!shoes.length) {

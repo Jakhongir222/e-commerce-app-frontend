@@ -11,12 +11,12 @@ const MenShoes = () => {
     <div className='category-page-layout'>
       {shoes.filter(shoe => shoe.gender === 'man')
       .map(shoe => (
-        <a className='container' key={shoe.id} href={`/men/${shoe.id}`}>
+        <div className='container' key={shoe.id}>
         <img className='shoe-image' src={images[shoe.brand]} width='273' height='273'/>
           <p>{shoe.name}</p>
           <p>{shoe.brand}</p>
           <p>{shoe.price} €</p>
-        </a>
+        </div>
       ))}
     </div>
   );

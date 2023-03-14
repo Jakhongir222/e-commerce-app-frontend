@@ -1,6 +1,9 @@
 # E-Commerce Frontend
-This repository contains the frontend of the E-Commerce App, a full stack application that allows users to browse and purchase shoes for Men's, Women's, and Children's categories.
+
 Here is the link for the backend of the [app](https://github.com/Jakhongir222/e-commerce-app-backend.git)
+
+This repository contains the frontend of the E-Commerce App, a full stack application that allows users to browse and purchase shoes for Men's, Women's, and Children's categories.
+
 
 ## Technologies
 - Next.js version 13
